@@ -1,0 +1,36 @@
+body{
+  background:lightgray;
+}
+.card{
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  padding:10px;
+  text-align: center;
+  border: 4px solid black;
+}
+[data-color="red"]{
+  background: red;
+}
+[data-color="pink"]{
+  background: pink;
+  color: black;
+}
+[data-color="yellow"]{
+  background: yellow;
+  color: black;
+}
+[data-color="black"]{
+  background: black;
+}
+
+[data-color="blue"]{
+  background: blue;
+}
+
+[data-color="gray"]{
+  background: gray;
+}

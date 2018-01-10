@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="card" data-brand="a" data-year="2017" data-color="red"></div>
+      <div class="card" data-brand="b" data-year="2017" data-color="blue"></div>
+      <div class="card" data-brand="f" data-year="2016" data-color="red"></div>
+      <div class="card" data-brand="w" data-year="2016" data-color="pink"></div>
+      <div class="card" data-brand="a" data-year="2025" data-color="gray"></div>
+      <div class="card" data-brand="c" data-year="2025" data-color="pink"></div>
+      <div class="card" data-brand="a" data-year="2013" data-color="black"></div>
+      <div class="card" data-brand="w" data-year="2013" data-color="black"></div>
+      <div class="card" data-brand="c" data-year="2016" data-color="yellow"></div>
+      <div class="card" data-brand="w" data-year="2012" data-color="blue"></div>
+    </div>
+    <script src="jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $('.card').each(function (){
+        $(this).html($(this).attr('data-brand')+"-"+$(this).attr('data-year'));
+      });
+    </script>
+    <script src="jjsfilter.js" charset="utf-8"></script>
+  </body>
+
+</html>
